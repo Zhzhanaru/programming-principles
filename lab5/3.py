@@ -5,7 +5,7 @@
 import re
 
 s=input()
-x=re.findall('[a-z]+_',s)
+x=re.findall('[a-z]+_[a-z]+',s)
 print(x)
 
 if x:

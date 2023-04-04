@@ -3,7 +3,9 @@
 # string is palindrome or not.
 
 str=input()
+
 str_reverse=''.join(reversed(str))
+
 if str_reverse==str:
     print('Yes,it is a palindrom')
 else:
